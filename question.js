@@ -78,11 +78,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("Quel film as tu regardé ce soir ?", ["Extraction", "Coronavirus","Parasite", "Netflix"], "Extraction"),
+    new Question("Quest ce que le TOEFL?", ["Stade de foot", "Ville", "Test de langue", "Institution"], "Test de langue"),
+    new Question("Ou se situe la ville de Teheran", ["Afrique", "Asie","Europe", "Amerique"], "Asie"),
+    new Question("Ou se situe la ville de Cotonou", ["Afrique", "Asie","Europe", "Amerique"], "Afrique"),
+    new Question("Quelle est la capitale de la France", ["Cotonou", "Teheran", "Londres", "Paris"], "Paris")
 ];
  
 // create quiz
